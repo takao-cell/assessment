@@ -19,6 +19,7 @@ assessmentbutton.onclick = function() {
         return;
     }
 
+    
     //診断結果表示エリアの作成
     removeAllChildren(resultDivided)
     const header = document.createElement('h3');
